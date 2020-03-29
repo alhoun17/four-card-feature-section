@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+  .container {
+    background-color: hsl(0, 0%, 98%);
+    margin: auto 0;
+    padding: 20px;
+  }
+
+  header {
+    text-align: center;
+    max-width: 80%;
+    margin: 8rem auto;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    line-height: 5.25rem;
+  }
+
+  p {
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .bold {
+    font-weight: 600;
+    color:  hsl(234, 12%, 34%);
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .cards-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px 1px rgba(36, 36, 36, 0.2);
+    border-radius: 5px;
+    position: relative;
+    max-width: 100%;
+    width: 30rem;
+    height: 25rem;
+    padding: 1.6rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+  }
+
+  .cards-section h2 {
+    margin: 2rem 0 1.5rem 0;
+    font-size: 2rem;
+  }
+
+  .cards-section p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .card img {
+    width: 20%;
+    position: absolute;
+    bottom: 1.6rem;
+    right: 1.6rem;
+  }
+
+  .Supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+  }
+
+  .team-builder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+  }
+  
+  .karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+  }
+
+  .calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+  }
+
+  footer {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .attribution, .attribution .bold {
+    color: #000; 
+  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media all and (min-width: 1024px) {
+    .cards-section {
+      flex-direction: row;
+      align-items: center;
+    }
+    .cards-center {
+      margin-right: 3rem;
+      margin-left: 3rem;
+    }
+  }
